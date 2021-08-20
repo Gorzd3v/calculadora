@@ -1,0 +1,97 @@
+body{
+    font-family: quicksand, "Helvetica Neue", Helvetica, sans-serif;
+}
+.display{
+    font-size: 20px;
+    border: 2px black solid;
+}
+.display1{
+    height: 30px;
+    width: auto;
+    border: 2px black solid;
+    background-color: rgb(204, 222, 255);
+}
+.display2{
+    height: 30px;
+    width: auto;
+    border: 2px black solid;
+    background-color: rgb(204, 222, 255);
+}
+.display1 , .display2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.btnN {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    background-color: rgb(255, 198, 128);
+    border-radius: 10px;
+    border: 2px black solid;
+    
+}
+
+.btnN:hover {
+    background-color: rgb(252, 183, 99);
+    border: 3px black solid;
+}
+
+.btnO{
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    background-color: rgb(195, 255, 176);
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btnClear{
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    background-color: rgb(255, 128, 128);
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btnDelete{
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    background-color: rgb(255, 116, 116);
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btnPunto{
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    background-color: rgb(255, 198, 128);
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btnIgual{
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    background-color: rgb(130, 138, 255);
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+
+}
+
+.btnContainer{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
