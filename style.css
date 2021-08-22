@@ -1,97 +1,128 @@
 body{
     font-family: quicksand, "Helvetica Neue", Helvetica, sans-serif;
+ 
+    background-color: rgb(231, 238, 192);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.base{
+
+    padding-top: 50px;
+ 
 }
 .display{
-    font-size: 20px;
-    border: 2px black solid;
+    font-size: 25px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(218, 255, 218);
+    border-radius: 5px;
+    height: 80px;
+    width: 240px;
+    align-self: center;
+
 }
-.display1{
-    height: 30px;
-    width: auto;
-    border: 2px black solid;
-    background-color: rgb(204, 222, 255);
-}
-.display2{
-    height: 30px;
-    width: auto;
-    border: 2px black solid;
-    background-color: rgb(204, 222, 255);
-}
+
+    
 .display1 , .display2 {
     display: flex;
     justify-content: flex-end;
+   
+    align-items: center;
+  
 }
-.btnN {
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    background-color: rgb(255, 198, 128);
-    border-radius: 10px;
-    border: 2px black solid;
-    
+.display2{
+    border-bottom: 1px rgba(0, 0, 0, 0.288) solid;
 }
 
-.btnN:hover {
-    background-color: rgb(252, 183, 99);
-    border: 3px black solid;
-}
-
-.btnO{
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    background-color: rgb(195, 255, 176);
-    border-radius: 10px;
-    border: 2px black solid;
+.btns{
+    background-color: black;
+    display: grid;
+    height: 300px;
+    width: 240px;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+  
 }
 
 .btnClear{
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    background-color: rgb(255, 128, 128);
-    border-radius: 10px;
-    border: 2px black solid;
+    grid-column: 1 / 3;
+}
+#cero{
+    grid-column: 1/3;
 }
 
-.btnDelete{
-    height: 60px;
-    width: 60px;
+.btnN , .btnPunto{
     font-size: 30px;
-    background-color: rgb(255, 116, 116);
-    border-radius: 10px;
-    border: 2px black solid;
+    background-color: #e6f3ff;
+    border: 1px black solid;
+  
 }
+.btnN:hover{
+    background-color: #cce6ff;
 
-.btnPunto{
-    height: 60px;
-    width: 60px;
-    font-size: 40px;
-    background-color: rgb(255, 198, 128);
-    border-radius: 10px;
-    border: 2px black solid;
+}
+.btnPunto:hover{
+    background-color: #cce6ff;
+}
+.btnO{
+    font-size: 35px;
+    background-color: #E5FFC8;
+    border: 1px black solid;
+}
+.btnO:hover{
+    background-color: #d7fdaa
 }
 
 .btnIgual{
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    background-color: rgb(130, 138, 255);
-    border-radius: 10px;
-    border: 2px black solid;
+    font-size: 35px;
+    background-color: #fbffc8;
+    border: 1px black solid;
 }
+.btnIgual:hover{
+    background-color: #f4faa7;
 
+}
+.btnPunto{
+    font-size: 35px;
+    background-color: #e6f3ff ;
+    border: 1px black solid;
+}
+.btnDelete{
+    font-size: 35px;
+    background-color: #ffead2;
+    border: 1px black solid;
+}
+.btnDelete:hover{
+    background-color: #ffdbb3;
+}
+.calculadora{
+    height: 400px;
+    width: 240px;
+
+    display: grid;
+    grid-template-rows: 2fr 15px 7fr;
+}
 
 .container{
-    width: 300px;
-    height: 500px;
-    background-color: rgb(95, 95, 95);
-    border-radius: 5px;
-
-}
-
-.btnContainer{
+    
+    height: 440px;
+    width: 280px;
+    background-color: rgb(59, 59, 59);
     display: flex;
-    align-self: center;
+    justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+.btnClear{
+    font-size: 30px;
+    background-color: rgb(255, 179, 179);
+    border: 1px black solid;
+}
+.btnClear:hover{
+    background-color: rgb(252, 160, 160);
+}
+

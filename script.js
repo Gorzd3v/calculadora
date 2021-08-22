@@ -53,8 +53,7 @@ function clear(){
 
 
 function mostrarNum(num){
-    
-   
+
     display1.textContent += num;
     
 }
@@ -81,6 +80,7 @@ function resultado (){
     numeroB = display1.textContent;
     display1.textContent=operar(numeroA , operador , numeroB);
     res=numeroA;
+
     
 }
 
