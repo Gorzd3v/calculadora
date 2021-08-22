@@ -28,8 +28,10 @@ body{
 .display1 , .display2 {
     display: flex;
     justify-content: flex-end;
-   
+    
     align-items: center;
+  
+overflow:hidden;
   
 }
 .display2{

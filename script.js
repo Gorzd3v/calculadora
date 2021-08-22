@@ -53,7 +53,6 @@ function clear(){
 
 
 function mostrarNum(num){
-
     display1.textContent += num;
     
 }
